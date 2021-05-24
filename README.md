@@ -58,7 +58,7 @@ It is best to create a seperate user account to run the Bot on.
 ## Adding the Bot to a Discord Server
 
 - [Setting up a bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot).
-- Open this url in your browser: `https://discordapp.com/oauth2/authorize?client_id=_APPLICATION-ID_&scope=bot&permissions=452672`
+- Open this url in your browser: `https://discordapp.com/oauth2/authorize?client_id=APPLICATION-ID&scope=bot&permissions=452672`
 
   "_APPLICATION-ID_" needs to be replaced with the Application ID that was generated under "Setting up a bot application".
 
