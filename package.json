@@ -1,0 +1,23 @@
+{
+    "name": "HomarusBot",
+    "version": "1.0.0",
+    "description": "A reaction Bot for Discord Servers running on NodeJS",
+    "author": "TimeWaster",
+    "license": "The Unlicense",
+    "main": "src/server.js",
+    "scripts": {
+        "run": "npx babel-node src/server.js",
+        "run-dev": "nodemon --exec babel-node src/server.js",
+        "run-dev-test": "nodemon --exec babel-node src/test.js"
+    },
+    "dependencies": {
+        "discord.js": "^12.5.3"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.13.16",
+        "@babel/core": "^7.14.2",
+        "@babel/node": "^7.14.2",
+        "@babel/preset-env": "^7.14.2",
+        "nodemon": "^2.0.7"
+    }
+}
