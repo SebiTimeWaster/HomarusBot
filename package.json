@@ -3,7 +3,11 @@
     "version": "1.0.0",
     "description": "A reaction Bot for Discord Servers running on NodeJS",
     "author": "TimeWaster",
-    "license": "The Unlicense",
+    "license": "Unlicense",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/SebiTimeWaster/HomarusBot.git"
+    },
     "main": "src/server.js",
     "scripts": {
         "run": "npx babel-node src/server.js",
