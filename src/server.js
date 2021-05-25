@@ -2,18 +2,30 @@ const fs = require('fs');
 const Discord = require('discord.js');
 const { log } = require('./utils/');
 const { MessageHandler } = require('./handlers/');
-const config = require('../../config') || require('../config');
+let config;
+
+try {
+    config = require('../../config');
+} catch (e) {
+    config = require('../config');
+}
 
 const loadRules = (ruleNames, eventName) => {
     let rules = [];
 
     ruleNames.forEach((ruleName) => {
         const rulePath = `../rules/${eventName}.${ruleName}.js`;
-        const rule = require(`../${rulePath}`) || require(rulePath);
+        let rule;
+
+        try {
+            rule = require(`../${rulePath}`);
+        } catch (e) {
+            rule = require(rulePath);
+        }
 
         if (Array.isArray(rule)) rules.push(...rule);
         else if (typeof rule === 'object') rules.push(rule);
-        else throw `Error: Unknown error loading rule file "./rules/${eventName}.${ruleName}.js"`;
+        else throw `Error: Unknown error loading rule file "rules/${eventName}.${ruleName}.js"`;
     });
 
     return { rules };
