@@ -85,9 +85,9 @@ npm update
 ./start.sh
 ```
 
-## Including HomarusBot in your own GIT repository
+## Including HomarusBot in your own Git repository
 
-It is possible to add HomarusBot to your GIT project without forking it, in a directory you see fit in your project run:
+It is possible to add HomarusBot to your Git project without forking it, in a directory you see fit in your project run:
 
 ```bash
 git submodule add git@github.com:SebiTimeWaster/HomarusBot.git

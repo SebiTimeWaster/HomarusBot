@@ -4,11 +4,11 @@
 
 ### Release Highlights
 
-Added the possibility to include HomarusBot into an existing GIT project via GIT submodules, follow the instructions in [README.md](README.md).
+Added the possibility to include HomarusBot into an existing Git project via Git submodules, follow the instructions in [README.md](README.md).
 
 ### Features
 
-- Added support to be run as a GIT submodule
+- Added support to be run as a Git submodule
 - Removed Babel due to configuration problems, this introduces a breaking change in imports/exports
 
 ### Bugfixes
