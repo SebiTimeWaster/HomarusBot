@@ -1,1 +1,1 @@
-export { default as MessageHandler } from './message.js';
+module.exports.MessageHandler = require('./MessageHandler.js');

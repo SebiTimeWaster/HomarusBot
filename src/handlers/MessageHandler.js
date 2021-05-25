@@ -1,4 +1,4 @@
-import { log, getOptParam } from '../utils/index.js';
+const { log, getOptParam } = require('../utils/');
 
 class MessageHandler {
     constructor(config, messageObj) {
@@ -105,4 +105,4 @@ class MessageHandler {
     }
 }
 
-export default MessageHandler;
+module.exports = MessageHandler;

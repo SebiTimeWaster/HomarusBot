@@ -17,13 +17,13 @@ The rules name (In the example above 'daily-quote') must be added to the rules A
 A rule file must contain one or more rules in the following format:
 
 ```js
-export default [{ ruleConfiguration }, { ruleConfiguration }];
+module.exports = [{ ruleConfiguration }, { ruleConfiguration }];
 ```
 
 or
 
 ```js
-export default { ruleConfiguration };
+module.exports = { ruleConfiguration };
 ```
 
 ## Rule configuration
@@ -83,8 +83,8 @@ The rule configuration Object literal can contain the following properties (All 
  *                                                      This behaviour differs from the emojis added as reactions!
  * @property {(object|object[])} [error]            - Sends a message if the user is not allowed to use the rule due to channel or role restrictions, works exactly the same as the "normal" property
  * @property {(object|object[])} [admin]            - Sends a message to the admin channel as specified in "adminChannelID" in config.js, works exactly the same as the "normal" property
- * @property {boolean}           [normalIsPM=false] - If the normal message should be sent as a private message
- * @property {boolean}           [errorIsPM=false]  - If the error message should be sent as a private message
+ * @property {boolean}           [normalIsPM=false] - If the normal message should be sent as a private message instead
+ * @property {boolean}           [errorIsPM=false]  - If the error message should be sent as a private message instead
  */
 ```
 

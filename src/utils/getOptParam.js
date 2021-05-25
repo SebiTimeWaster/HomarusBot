@@ -1,1 +1,3 @@
-export default (param, def) => (param !== undefined ? param : def);
+const getOptParam = (param, def) => (param !== undefined ? param : def);
+
+module.exports = getOptParam;

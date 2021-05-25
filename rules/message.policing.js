@@ -1,5 +1,5 @@
 // police speech example
-export default {
+module.exports = {
     keywords: ['testword1', 'testword2', 'testword3'],
     wordBounds: false,
     deleteMessage: true,

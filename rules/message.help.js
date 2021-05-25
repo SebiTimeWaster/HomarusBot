@@ -1,5 +1,5 @@
 // shows help to the user
-export default {
+module.exports = {
     keywords: ['\\!help'],
     startsWith: true,
     responses: {
@@ -16,6 +16,10 @@ export default {
                     { name: 'good night', value: 'Answers "Sleep tight!"' },
                     { name: 'haha', value: 'Adds an Emoji reaction to the users message' },
                     { name: '!avatar', value: 'Responds with the users avatar image' },
+                    {
+                        name: '"keyword1", "keyword2", "keyword3"',
+                        value: 'Responds with a random message',
+                    },
                     { name: '!help', value: 'Answers with this message' },
                 ],
             },

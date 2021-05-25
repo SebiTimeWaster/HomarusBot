@@ -84,3 +84,17 @@ cd /home/directory/you/want/HomarusBot
 npm update
 ./start.sh
 ```
+
+## Including HomarusBot in your own GIT repository
+
+It is possible to add HomarusBot to your GIT project without forking it, in a directory you see fit in your project run:
+
+```bash
+git submodule add git@github.com:SebiTimeWaster/HomarusBot.git
+```
+
+This adds HomarusBot as a subdirectory with its own .git configuration/namespace.
+
+Now copy the `rules` directory and the `config.js` from the `HomarusBot` directory one directory above and start to change/use it, it is part of your repository.
+
+You still need to run the `npm install` and other commands from the HomarusBot directory itself, but you can easily write scripts to do that for you.

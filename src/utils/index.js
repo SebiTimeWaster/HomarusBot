@@ -1,2 +1,2 @@
-export { default as log } from './log.js';
-export { default as getOptParam } from './getOptParam.js';
+module.exports.log = require('./log.js');
+module.exports.getOptParam = require('./getOptParam.js');
