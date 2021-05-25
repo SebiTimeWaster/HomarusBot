@@ -95,6 +95,11 @@ git submodule add git@github.com:SebiTimeWaster/HomarusBot.git
 
 This adds HomarusBot as a subdirectory with its own .git configuration/namespace.
 
-Now copy the `rules` directory and the `config.js` from the `HomarusBot` directory one directory above and start to change/use it, it is part of your repository.
+Now copy the `rules` directory and the `config.js` from the `HomarusBot` directory one directory above and start to change/use it:
 
-You still need to run the `npm install` and other commands from the HomarusBot directory itself, but you can easily write scripts to do that for you.
+```bash
+cp -r HomarusBot/rules ./
+cp HomarusBot/config.js ./
+```
+
+You still need to run the `npm install` and other commands from the HomarusBot directory itself, but you can easily write scripts to do that for you from your repository.
