@@ -24,7 +24,3 @@ This is the initial release.
 ### Features
 
 - Pattern matching engine based on the Discord.js "message" and "messageDelete" events
-
-### Bugfixes
-
--
