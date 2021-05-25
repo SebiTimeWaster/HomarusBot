@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 (2021-05-25)
+## [1.1.0](https://github.com/SebiTimeWaster/HomarusBot/releases/tag/v1.1.0) (2021-05-25)
 
 ### Release Highlights
 
@@ -15,7 +15,7 @@ Added the possibility to include HomarusBot into an existing GIT project via GIT
 
 - Removed unused code
 
-## 1.0.0 (2021-05-23)
+## [1.0.0](https://github.com/SebiTimeWaster/HomarusBot/releases/tag/v1.0.0) (2021-05-23)
 
 ### Release Highlights
 
