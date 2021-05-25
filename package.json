@@ -10,7 +10,7 @@
     },
     "main": "src/server.js",
     "scripts": {
-        "run": "npx src/server.js",
+        "run": "node src/server.js",
         "run-dev": "nodemon --watch ../ src/server.js",
         "changelog": "git log --pretty='- %s'"
     },
