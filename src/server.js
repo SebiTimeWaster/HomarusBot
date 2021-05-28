@@ -1,4 +1,3 @@
-const fs = require('fs');
 const Discord = require('discord.js');
 const { log } = require('./utils/');
 const { MessageHandler } = require('./handlers/');
