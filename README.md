@@ -1,6 +1,11 @@
 # HomarusBot
 
-A reaction Bot for Discord Servers running on NodeJS that is configured (Programmed) in JavaScript, making it extremely flexible.
+A reaction Bot for Discord Servers running on NodeJS that is configured (Programmed) in JavaScript, making it extremely flexible:
+
+- React with random reactions
+- Write calculator commands
+- Call your own code instead of reacting with a message
+- Use everything NodeJS has to offer
 
 ## General Info
 
@@ -9,7 +14,7 @@ This Bot is intended to:
 - Be used by programmers and therefore has no configuration GUI or Website, all rules are defined in JavaScript code
 - Be run on a Root Server hosted by the user itself
 
-If you don't know what that means then this Bot is not for you.
+If you don't know what that means then this Bot is not for you unfortunately.
 
 I will give no support for code that is written by the user itself or concerns the underlying Discord.js project.
 
@@ -53,12 +58,12 @@ cd HomarusBot
 npm install
 ```
 
-It is best to create a seperate user account to run the Bot on.
+It is best to create a separate user account to run the Bot on.
 
 ## Adding the Bot to a Discord Server
 
 - [Setting up a bot application](https://discordjs.guide/preparations/setting-up-a-bot-application.html#creating-your-bot).
-- Open this url in your browser: `https://discordapp.com/oauth2/authorize?client_id=APPLICATION-ID&scope=bot&permissions=452672`
+- Open this URL in your browser: `https://discordapp.com/oauth2/authorize?client_id=APPLICATION-ID&scope=bot&permissions=452672`
 
   "_APPLICATION-ID_" needs to be replaced with the Application ID that was generated under "Setting up a bot application".
 
@@ -93,7 +98,7 @@ It is possible to add HomarusBot to your Git project without forking it, in a di
 git submodule add git@github.com:SebiTimeWaster/HomarusBot.git
 ```
 
-This adds HomarusBot as a subdirectory with its own .git configuration/namespace.
+This adds HomarusBot as a sub-directory with its own .git configuration/namespace.
 
 Now copy the `rules` directory and the `config.js` from the `HomarusBot` directory one directory above and start to change/use it:
 
