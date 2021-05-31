@@ -81,15 +81,6 @@ cd /home/directory/you/want/HomarusBot
 
 `log/homarusbot.log` contains the logs from the running Bot or last run of the Bot (not used with `start-dev.sh`).
 
-## Keeping dependencies up-to-date
-
-```bash
-cd /home/directory/you/want/HomarusBot
-./stop.sh
-npm update
-./start.sh
-```
-
 ## Including HomarusBot in your own Git repository
 
 It is possible to add HomarusBot to your Git project without forking it, in a directory you see fit in your project run:
